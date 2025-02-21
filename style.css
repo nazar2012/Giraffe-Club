@@ -142,10 +142,29 @@ img {
 }
 
 .nas-texts {
-  color: var(--Font-Color-Black, #000);
+  color: #000;
   text-align: center;
   font-family: "Bookman Old Style";
   font-size: 34px;
   font-weight: 300;
   line-height: 130%;
+}
+
+.nas-list {
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.nas-item {
+  border-radius: 20px;
+  border: 2px solid #000;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-basis: calc((75% - 82px) / 3);
 }
