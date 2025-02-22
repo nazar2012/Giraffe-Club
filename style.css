@@ -41,6 +41,7 @@ img {
   max-width: 1680px;
   margin: 0 auto;
   padding: 0 15px;
+  outline: 2px solid red;
 }
 
 .header-box {
@@ -160,11 +161,97 @@ img {
 
 .nas-item {
   border-radius: 20px;
-  border: 2px solid #000;
+  height: 350px;
+  border: 1px solid #000;
   width: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   flex-basis: calc((75% - 82px) / 3);
+}
+
+.work {
+  padding: 113px 0;
+  background-color: rgba(222, 116, 43, 0.90);
+}
+
+.work-p {
+  color: #FCFCFC;
+  font-family: "Bookman Old Style";
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.work-text {
+  color: #000;
+  text-align: center;
+  font-family: "Bookman Old Style";
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.work-imges {
+  width: 350px;
+  height: 500px;
+}
+
+.work-box {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 30px;
+}
+
+.work-list {
+  display: grid;
+  gap: 10px;
+}
+
+.work-item {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+  border-top: 2px solid #000;
+  width: 600px;
+}
+
+.work-num {
+  font-size: 30px;
+}
+
+.work-link {
+  outline: 1.5px solid black;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.work-btn {
+  background-color: #DF803E;
+  border-radius: 10px;
+  border: 2px solid #000;
+  display: inline-flex;
+  padding: 15px 70px;
+  margin-left: 560px;
+  margin-top: 54px;
+}
+
+.mova {
+  padding: 115px 0;
+}
+
+.mova-p {
+  color: #000;
+  font-family: "Bookman Old Style";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.mova-text {
+  color: #000;
+  font-family: "Bookman Old Style";
+  font-size: 50px;
+  font-weight: 300;
 }
