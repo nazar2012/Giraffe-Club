@@ -38,9 +38,9 @@ img {
 }
 
 .container {
-  max-width: 1680px;
+  max-width: 1720px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px;
   outline: 2px solid red;
 }
 
@@ -254,4 +254,102 @@ img {
   font-family: "Bookman Old Style";
   font-size: 50px;
   font-weight: 300;
+  margin-top: 68px;
+}
+
+.mova-box {
+  display: flex;
+  gap: 77px;
+}
+
+.mova-imges {
+  width: 790px;
+  height: 505px;
+  margin-top: 70px;
+}
+
+.mova-num {
+  font-size: 30px;
+}
+
+.mova-link {
+  outline: 1.5px solid black;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.mova-texts {
+  color: #000;
+  font-family: "Bookman Old Style";
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+.mova-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.curs-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 64px;
+}
+
+.curs-list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.curs-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 320px;
+}
+
+.curs-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.curs-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border: 1.5px solid black;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+
+.curs-text {
+  color: #000;
+  font-family: "Bookman Old Style";
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.curs-p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-left: 60px;
 }
